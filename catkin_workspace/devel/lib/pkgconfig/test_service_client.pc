@@ -1,0 +1,8 @@
+prefix=/home/mondegrin/ros/catkin_workspace/devel
+
+Name: test_service_client
+Description: Description of test_service_client
+Version: 0.0.0
+Cflags: -I/home/mondegrin/ros/catkin_workspace/devel/include -I/home/mondegrin/ros/catkin_workspace/src/test_service_client/include
+Libs: -L${prefix}/lib -ltest_service_client
+Requires: roscpp std_msgs message_runtime

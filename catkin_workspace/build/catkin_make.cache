@@ -1,0 +1,2 @@
+test_publisher_subscriber:test_service_client
+-DCATKIN_DEVEL_PREFIX=/home/mondegrin/ros/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/mondegrin/ros/catkin_workspace/install -G Unix Makefiles
