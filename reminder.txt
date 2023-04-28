@@ -1,0 +1,3 @@
+rosbag record -a - record all topics data while not ^C
+rqt_graph        - show graph of all nodes and topics
+rqt_console      - show msgs of all nodes and topics
