@@ -1,3 +1,6 @@
-rosbag record -a - record all topics data while not ^C
-rqt_graph        - show graph of all nodes and topics
-rqt_console      - show msgs of all nodes and topics
+rosbag record -a       - record all topics data while not ^C (--duration=<seconds> record data for <seconds> seconds)
+rosbag info <file.bag> - show bag info
+rosbag play <file.bag> - plays recorded info (--immediate plays info fast as it can, -d <seconds> - wait <seconds> seconds before start plaing data)
+rqt_graph              - show graph of all nodes and topics
+rqt_console            - show msgs of all nodes and topics
+roscore                - strts ros core
