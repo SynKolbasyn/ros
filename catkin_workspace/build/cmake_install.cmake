@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mondegrin/ros/catkin_workspace/build/gtest/cmake_install.cmake")
+  include("/home/mondegrin/ros/catkin_workspace/build/rviz_using_markers/cmake_install.cmake")
   include("/home/mondegrin/ros/catkin_workspace/build/test_publisher_subscriber/cmake_install.cmake")
   include("/home/mondegrin/ros/catkin_workspace/build/test_service_client/cmake_install.cmake")
 
