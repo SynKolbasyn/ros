@@ -1,0 +1,8 @@
+prefix=/home/mondegrin/ros/catkin_workspace/devel
+
+Name: rviz_points_and_lines
+Description: Description of rviz_points_and_lines
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

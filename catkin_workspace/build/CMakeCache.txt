@@ -495,6 +495,12 @@ rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
 //Value Computed by CMake
+rviz_points_and_lines_BINARY_DIR:STATIC=/home/mondegrin/ros/catkin_workspace/build/rviz_points_and_lines
+
+//Value Computed by CMake
+rviz_points_and_lines_SOURCE_DIR:STATIC=/home/mondegrin/ros/catkin_workspace/src/rviz_points_and_lines
+
+//Value Computed by CMake
 rviz_using_markers_BINARY_DIR:STATIC=/home/mondegrin/ros/catkin_workspace/build/rviz_using_markers
 
 //Value Computed by CMake
@@ -669,7 +675,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
