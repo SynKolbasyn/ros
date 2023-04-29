@@ -135,11 +135,11 @@ include_directories(
 
 add_executable(server src/server.cpp)
 target_link_libraries(server ${catkin_LIBRARIES})
-add_dependencies(server test_1)
+add_dependencies(server test_servise_client)
 
 add_executable(client src/client.cpp)
 target_link_libraries(client ${catkin_LIBRARIES})
-add_dependencies(client test_1)
+add_dependencies(client test_servise_client)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

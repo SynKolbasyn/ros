@@ -136,11 +136,11 @@ include_directories(
 
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
-add_dependencies(talker test_1)
+add_dependencies(talker test_publisher_subscriber)
 
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
-add_dependencies(listener test_1)
+add_dependencies(listener test_publisher_subscriber)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

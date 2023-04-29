@@ -42,9 +42,9 @@ int main( int argc, char** argv ) {
     marker.scale.z = 1.0;
 
     // Set the color -- be sure to set alpha to something non-zero!
-    marker.color.r = 0.0f;
-    marker.color.g = 1.0f;
-    marker.color.b = 0.0f;
+    marker.color.r = 1.0f;
+    marker.color.g = 0.0f;
+    marker.color.b = 1.0f;
     marker.color.a = 1.0;
 
     marker.lifetime = ros::Duration();
@@ -65,9 +65,6 @@ int main( int argc, char** argv ) {
       shape = visualization_msgs::Marker::SPHERE;
       break;
     case visualization_msgs::Marker::SPHERE:
-      shape = visualization_msgs::Marker::ARROW;
-      break;
-    case visualization_msgs::Marker::ARROW:
       shape = visualization_msgs::Marker::CYLINDER;
       break;
     case visualization_msgs::Marker::CYLINDER:
